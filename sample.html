@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
     <!--タイトルとか-->
-    <title>ブログ</title>
+    <title>ウェブサイトの作り方</title>
     <link rel="icon" href="https://youtuberhelpers.github.io/img/icon.png">
-    <meta name="description" content="編集者が気ままに思ったことを投稿する場所です。お役に立てると嬉しいです">
+    <meta name="description" content="今回はwebページに関するtagを説明しました">
     <!--CSS-->
     <link rel="stylesheet" href="https://youtuberhelpers.github.io/css/style.css">
     <link rel="stylesheet" href="https://youtuberhelpers.github.io/css/header.css">
@@ -15,6 +15,11 @@
     <script src="https://youtuberhelpers.github.io/js/date.js"></script>
     <script src="https://kit.fontawesome.com/e3be17948b.js" crossorigin="anonymous"></script>
     <script async src="js/google.js"></script>
+    <script>
+        function OPtg() {
+            var msg = "<p>";
+        }
+    </script>
     <!--その他-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,10 +29,10 @@
     <link rel="canonical" href="https://youtuberhelpers.github.io/blog/">
     <!--Share用-->
     <meta property="og:url" content="https://youtuberhelpers.github.io/blog/" />
-    <meta property="og:title" content="ブログ" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="編集者が気ままに思ったことを投稿する場所です。お役に立てると嬉しいです" />
-    <meta property="og:image" content="https://youtuberhelpers.github.io/img/icon.png" />
+    <meta property="og:title" content="ウェブサイトの作り方" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="今回はwebページに関するtagを紹介しました" />
+    <meta property="og:image" content="https://www.zanmai.info/media/007/202107/mode3_w393-1200px-HTML5_logo_and_wordmark.svg.png" />
     <meta property="og:site_name" content="Youtuber応援隊" />
     <meta property="og:locale" content="ja_JP" />
 </head>
@@ -44,29 +49,16 @@
         　</ul>
     </header>
     <main>
-        <div style="padding: 50px;"></div>
-        <h4 class="Cimg" style="font-size: 3rem;">ブログトップ</h4>
-        <div class="gcse-search"></div>
-        <div class="Cimg" style="font-size: 20px;">新作記事</div>
-        <div class="cp_card07">
-            <div class="photo">
-                <div class="details">
-                <div class="day">28</div>
-                <div class="month">Jun</div>
-            </div>
-            <a href="https://youtuberhelpers.github.io/blog/webmake" target="_blank"><img src="https://johobase.com/jb/wp-content/uploads/html5-logo.png"/></a>
-            </div>
-            <div class="description">
-                <div class="category inline">プログラミング</div>
-                <h1><a href="https://youtuberhelpers.github.io/blog/webmake" target="_blank">Webページの作り方</a></h1>
-                <h2>~tagについて~</h2>
-                <p class="text">今回はWebページの作り方について解説していこうと思います。あなたはWebページと聞くと何を思い浮かべますか？。</p>
-                <div class="meta"><span class="comments"><i class="fa fa-comments"></i><a href="https://youtuberhelpers.github.io/blog/webmake#disqus_thread"></a></span></div>
-            </div>
-        </div>
-        <div onload="LoadProc();" style="text-align: right; padding: 10px;">
-            <p id="RealtimeClockArea2" title="現在時刻">時刻を取得中...</p>
-        </div>
+        <div id="disqus_thread"></div>
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://youtuberhelpers.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </main>
     <footer>
         <div class="foot-wrap">

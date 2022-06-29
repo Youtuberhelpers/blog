@@ -8,6 +8,9 @@ img {
     border: 3;
     border-color: white;
 }  
+.test {
+	background-color: #dadada;
+}
 
 /*カード*/
 .cp_card07 {
